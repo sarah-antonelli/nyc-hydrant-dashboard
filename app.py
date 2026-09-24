@@ -327,12 +327,18 @@ st.sidebar.markdown(
     "and [Hydrants](https://data.cityofnewyork.us/Environment/Hydrants/5bgh-vtsn)"
 )
 
-st.sidebar.markdown("**About This Project:** Created as part of the Modern GIS Accelerator to demonstrate an end-to-end geospatial"
-"   workflow, from data aquisition and spatial analysis through interactive web mapping and cloud deployment.")
+st.sidebar.markdown(
+    """
+    **About This Project:**
+
+    Created as part of the Modern GIS Accelerator to demonstrate an end-to-end geospatial
+    workflow, from data aquisition and spatial analysis through interactive web mapping and cloud deployment.
+    """
+)
 
 st.sidebar.markdown(
     """
-    **Built With**
+    **Built With:**
     
     • Python and Pandas for data processing  
     • GeoPandas for spatial analysis  
