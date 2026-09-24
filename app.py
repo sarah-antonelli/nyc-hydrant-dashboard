@@ -333,6 +333,7 @@ st.sidebar.markdown("**About This Project:** Created as part of the Modern GIS A
 st.sidebar.markdown(
     """
     **Built With**
+    
     • Python and Pandas for data processing  
     • GeoPandas for spatial analysis  
     • Folium and Leaflet for web mapping  
