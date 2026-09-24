@@ -128,8 +128,7 @@ else:
     m = folium.Map(
         location=[center_lat, center_lon],
         zoom_start=11,
-        tiles="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png",
-        attr="Stadia Maps"
+        tiles="OpenStreetMap"
     )
 
     # Add each neighborhood as a colored polygon with a tooltip
