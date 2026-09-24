@@ -178,7 +178,7 @@ else:
     color: black;
     z-index: 9999;
     ">
-    <b>Hydrant Density</b><br>
+    <b>Hydrant Density per km²</b><br>
 
     <div style="display:flex; justify-content:space-between;">
     <span>{legend_min:.1f}</span>
@@ -322,8 +322,22 @@ st.dataframe(
 # --- Sidebar info ---------------------------------------------------------
 st.sidebar.markdown("---")
 st.sidebar.markdown(
-    "**Data source:** NYC Open Data — "
+    "**Data Source:** NYC Open Data — "
     "[NTA Neighborhoods](https://data.cityofnewyork.us/City-Government/2020-Neighborhood-Tabulation-Areas-NTAs-/9nt8-h7nd) "
     "and [Hydrants](https://data.cityofnewyork.us/Environment/Hydrants/5bgh-vtsn)"
 )
-st.sidebar.markdown("**Course:** Modern GIS Accelerator — Lesson 3.5")
+
+st.sidebar.markdown("**About This Project:** Created as part of the Modern GIS Accelerator to demonstrate an end-to-end geospatial"
+"   workflow, from data aquisition and spatial analysis through interactive web mapping and cloud deployment.")
+
+st.sidebar.markdown(
+    """
+    **Built With**
+    • Python and Pandas for data processing  
+    • GeoPandas for spatial analysis  
+    • Folium and Leaflet for web mapping  
+    • Matplotlib for visualization  
+    • Streamlit for dashboard development and deployment  
+    • Apache Parquet for data storage
+    """
+)
