@@ -128,7 +128,8 @@ else:
     m = folium.Map(
         location=[center_lat, center_lon],
         zoom_start=11,
-        tiles="OpenStreetMap"
+        tiles="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+        attr="Esri"
     )
 
     # Add each neighborhood as a colored polygon with a tooltip
